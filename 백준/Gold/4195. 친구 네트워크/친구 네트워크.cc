@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int parent[200005];
-int res[200005];
+int parent[200001];
+int res[200001];
 
 // 이 함수는 특정 원소가 속한 집합의 루트를 찾음.
 int find(int x) {
